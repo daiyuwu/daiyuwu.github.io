@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Hugo tranquilpeak theme</title>
-    <link>https://example.org/page/</link>
+    <link>https://daiyuwu.github.io/page/</link>
     <description>Recent content in Pages on Hugo tranquilpeak theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Feb 2021 15:38:47 +0800</lastBuildDate>
     
-	<atom:link href="https://example.org/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://daiyuwu.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My First Page</title>
-      <link>https://example.org/page/my-first-page/</link>
+      <link>https://daiyuwu.github.io/page/my-first-page/</link>
       <pubDate>Tue, 02 Feb 2021 15:38:47 +0800</pubDate>
       
-      <guid>https://example.org/page/my-first-page/</guid>
+      <guid>https://daiyuwu.github.io/page/my-first-page/</guid>
       <description></description>
     </item>
     
