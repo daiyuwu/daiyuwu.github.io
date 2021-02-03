@@ -17,10 +17,12 @@
       <pubDate>Tue, 02 Feb 2021 16:12:40 +0800</pubDate>
       
       <guid>https://daiyuwu.github.io/grade/day-01-hello/</guid>
-      <description>Day nn. {title} 前言 write something cool&amp;hellip;
+      <description>{{ range $.Site.Data.coffee }} {{ partial &amp;ldquo;artist.html . }} {{ end }}
+  Day nn. {title} 前言 write something cool&amp;hellip;
 主要內容 write something cool&amp;hellip;
 小結 write something cool&amp;hellip;
-參考連結    </description>
+參考連結    https://daiyuwu.github.io//grade/day-01-hello/ I&#39;m link Block 
+ Github </description>
     </item>
     
     <item>

@@ -8,30 +8,38 @@
 <meta name="generator" content="Hugo 0.68.3 with theme Tranquilpeak 0.4.8-BETA">
 <meta name="author" content="Taiyue">
 <meta name="keywords" content="">
-<meta name="description" content="Day nn. {title} 前言 write something cool&hellip;
+<meta name="description" content="{{ range $.Site.Data.coffee }} {{ partial &ldquo;artist.html . }} {{ end }}
+  Day nn. {title} 前言 write something cool&hellip;
 主要內容 write something cool&hellip;
 小結 write something cool&hellip;
-參考連結    ">
+參考連結    https://daiyuwu.github.io//grade/day-01-hello/ I&#39;m link Block 
+ Github ">
 
 
-<meta property="og:description" content="Day nn. {title} 前言 write something cool&hellip;
+<meta property="og:description" content="{{ range $.Site.Data.coffee }} {{ partial &ldquo;artist.html . }} {{ end }}
+  Day nn. {title} 前言 write something cool&hellip;
 主要內容 write something cool&hellip;
 小結 write something cool&hellip;
-參考連結    ">
+參考連結    https://daiyuwu.github.io//grade/day-01-hello/ I&#39;m link Block 
+ Github ">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Day 01 Hello">
 <meta name="twitter:title" content="Day 01 Hello">
 <meta property="og:url" content="https://daiyuwu.github.io/grade/day-01-hello/">
 <meta property="twitter:url" content="https://daiyuwu.github.io/grade/day-01-hello/">
 <meta property="og:site_name" content="Hugo tranquilpeak theme">
-<meta property="og:description" content="Day nn. {title} 前言 write something cool&hellip;
+<meta property="og:description" content="{{ range $.Site.Data.coffee }} {{ partial &ldquo;artist.html . }} {{ end }}
+  Day nn. {title} 前言 write something cool&hellip;
 主要內容 write something cool&hellip;
 小結 write something cool&hellip;
-參考連結    ">
-<meta name="twitter:description" content="Day nn. {title} 前言 write something cool&hellip;
+參考連結    https://daiyuwu.github.io//grade/day-01-hello/ I&#39;m link Block 
+ Github ">
+<meta name="twitter:description" content="{{ range $.Site.Data.coffee }} {{ partial &ldquo;artist.html . }} {{ end }}
+  Day nn. {title} 前言 write something cool&hellip;
 主要內容 write something cool&hellip;
 小結 write something cool&hellip;
-參考連結    ">
+參考連結    https://daiyuwu.github.io//grade/day-01-hello/ I&#39;m link Block 
+ Github ">
 <meta property="og:locale" content="en-us">
 
   
@@ -251,7 +259,15 @@
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <h1 id="day-nn-title">Day nn. {title}</h1>
+              <p>{{ range $.Site.Data.coffee }}
+{{ partial &ldquo;artist.html . }} <!-- raw HTML omitted -->
+{{ end }}</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/qtIqKaDlqXo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h1 id="day-nn-title">Day nn. {title}</h1>
 <h1 id="前言">前言</h1>
 <p>write something cool&hellip;</p>
 <h1 id="主要內容">主要內容</h1>
@@ -262,6 +278,12 @@
 <ul>
 <li><a href=""></a></li>
 </ul>
+<a href="https://daiyuwu.github.io//grade/day-01-hello/" target="_blank">https://daiyuwu.github.io//grade/day-01-hello/</a>
+<div>
+  <a href="https://google.com.tw/" target="_blank"> I'm link Block </a><br />
+</div>
+<img src="https://daiyuwu.github.io/images/pexels-barbara-wyrowi%c5%84ska-2971245.jpg">
+<a href="https://github.com/daiyuwu" target="_blank">Github</a>
 
               
             </div>
@@ -287,7 +309,7 @@
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--disabled">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://daiyuwu.github.io/grade/nested/nested-01/" data-tooltip="Nested 01">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -373,7 +395,7 @@
           
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--disabled">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://daiyuwu.github.io/grade/nested/nested-01/" data-tooltip="Nested 01">
               
                   <i class="fa fa-angle-left"></i>
                   <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>

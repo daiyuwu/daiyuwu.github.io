@@ -223,14 +223,14 @@
     
     <div class="postShorten-header">
       <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://daiyuwu.github.io/grade/day-01-hello/">
-          Day 01 Hello
+        <a class="link-unstyled" href="https://daiyuwu.github.io/grade/nested/nested-01/">
+          Nested 01
         </a>
       </h1>
       
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="2021-02-02T16:12:40&#43;08:00">
+      <time itemprop="datePublished" datetime="2021-02-02T16:43:24&#43;08:00">
         
   February 2, 2021
 
@@ -248,7 +248,7 @@
 參考連結    
       
       <p>
-        <a href="https://daiyuwu.github.io/grade/day-01-hello/" class="postShorten-excerpt_link link">Continue reading</a>
+        <a href="https://daiyuwu.github.io/grade/nested/nested-01/" class="postShorten-excerpt_link link">Continue reading</a>
         
       </p>
     </div>
@@ -274,16 +274,16 @@
     
     <div class="postShorten-header">
       <h1 class="postShorten-title" itemprop="headline">
-        <a class="link-unstyled" href="https://daiyuwu.github.io/grade/nested/">
-          
+        <a class="link-unstyled" href="https://daiyuwu.github.io/grade/day-01-hello/">
+          Day 01 Hello
         </a>
       </h1>
       
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="0001-01-01T00:00:00Z">
+      <time itemprop="datePublished" datetime="2021-02-02T16:12:40&#43;08:00">
         
-  January 1, 1
+  February 2, 2021
 
       </time>
     
@@ -293,10 +293,15 @@
     </div>
     <div class="postShorten-excerpt" itemprop="articleBody">
       
-        
+        {{ range $.Site.Data.coffee }} {{ partial &ldquo;artist.html . }} {{ end }}
+  Day nn. {title} 前言 write something cool&hellip;
+主要內容 write something cool&hellip;
+小結 write something cool&hellip;
+參考連結    https://daiyuwu.github.io//grade/day-01-hello/ I'm link Block 
+ Github 
       
       <p>
-        <a href="https://daiyuwu.github.io/grade/nested/" class="postShorten-excerpt_link link">Continue reading</a>
+        <a href="https://daiyuwu.github.io/grade/day-01-hello/" class="postShorten-excerpt_link link">Continue reading</a>
         
       </p>
     </div>
